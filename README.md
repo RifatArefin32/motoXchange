@@ -10,5 +10,5 @@ As a portable web application written primarily in PHP, it has become one of the
 <br>
 <br>
 
-Rifat Arefin<br>
-CSE, KUET
+<a href="https://github.com/RIfatArefin32">Rifat Arefin</a><br>
+<a href="https://www.kuet.ac.bd/department/CSE/">CSE, KUET.</a>
