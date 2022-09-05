@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#bg{
+    border-right: 10px solid crimson;
+}
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+.row img{
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.login h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+.txt{
+    /* height: 50px; */
+    width: 70%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+
+.btn1{
+    height: 50px;
+    width: 50%;
+    border-radius: 60px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background: rgb(22, 22, 22);
+    box-shadow: 10px 10px 30px rgb(48, 47, 47);
+}
+.btn1:hover{
+    background: crimson;
+    transition: 0.5s;
+}
+.signup{
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+}
+.signup:hover{
+    color: red;
+    font-weight: 500;
+}
+
+
+/* Custom Scroll bar */
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background: red;
+}
+
+.error-msg{
+    color: crimson;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: black;
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgb(48, 47, 47);
+}
+
+select{
+    padding: 8px;
+    border-radius: 10px;
+    width: 35%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 30px rgb(48, 47, 47);
+}
+
+.file{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px rgb(48, 47, 47);
+}
+
+.inpnew{
+    height: 50px;
+    width: 35%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+
+#fuel{
+    padding-top: 15px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: baseline;
+    flex-direction: column;
+    color: black;
+}
+

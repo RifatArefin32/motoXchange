@@ -1,0 +1,375 @@
+/* New Project Page */
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 13px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: crimson;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+/* Navigation bar */
+
+#car-logo {
+    color: rgb(235, 228, 228);
+    padding-right: 5px;
+    margin-right: 10px;
+    height: 30px;
+    width: 36px;
+}
+
+#car-logo:hover {
+    color: red;
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+.bx:hover {
+    color: crimson;
+
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+#menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(247, 245, 245);
+    padding-top: 7px;
+}
+
+#menu-icon:hover {
+    color: crimson;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(247, 247, 247);
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#logo1 {
+    font-size: 25px;
+    color: red;
+}
+
+#logo2 {
+    font-size: 25px;
+    color: rgb(131, 131, 131);
+}
+
+#navbarNav a {
+    color: rgb(169, 163, 163);
+    font-size: 15px;
+}
+
+#navbarNav a:hover {
+    color: crimson;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+/* Home section */
+#home {
+    background-image: url('Images/car10.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home span {
+    color: rgb(164, 7, 7);
+}
+
+/* Car section */
+.card {
+    border-radius: 10px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-title {
+    color: crimson;
+}
+
+#car-card {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* About US */
+#bg {
+    border-right: 10px solid crimson;
+}
+
+.row1 {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.row1 img {
+    height: 60vh;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card1 {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card1 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#para {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* Ad section */
+.row2 {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.row2 img {
+    height: 90vh;
+    width: 100%;
+    object-fit: fill;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.carousel-caption h5 {
+    font-weight: 900;
+    color: crimson;
+    font-size: 60px;
+}
+
+.carousel-caption p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #E67E22;
+}
+
+
+/* Footer section */
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social a {
+
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.social a:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.google img {
+    height: 100%;
+    width: 180px;
+}
+
+.google img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.apple img {
+    padding-top: 20px;
+    height: 100%;
+    width: 180px;
+}
+
+.apple img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.footer-box h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.footer-box h4 {
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: rgb(240, 224, 227);
+}
+
+.footer-box a {
+    color: rgb(167, 164, 164);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-box p {
+    color: rgb(167, 164, 164);
+    font-size: 15px;
+}
+
+.footer-box a:hover {
+    color: red;
+}
+
+.footer-box span {
+    color: white;
+}
+
+.copyright {
+    border-top: 2px solid rgb(146, 145, 145);
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* Custom Scroll bar */
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background: red;
+}
+
+/* Shop page */
+/* Pagination */
+#new1 {
+    margin-right: 10px;
+    background-color: rgb(1, 1, 1);
+
+}
+#new2 {
+    margin-right: 10px;
+    background-color: rgb(205, 39, 39);
+
+}
+
+
+
+/* Login page */
+#inp{
+    height: 50px;
+    width: 80%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+#signup{
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+}
+#signup:hover{
+    color: red;
+    font-weight: 500;
+}
+
+/* .error-msg{
+    color: crimson;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: black;
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgb(48, 47, 47);
+} */
+
+
+/* Post item page */
